@@ -1,0 +1,417 @@
+body,
+html {
+    overflow-x: hidden;
+}
+
+/* Cabeçalho */
+.navbar-light .navbar-brand {
+    color: #820AD1
+}
+
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-nav .nav-link.active {
+    color: #820AD1;
+    font-weight: 500;
+    font-size: 1.2em;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: #242424;
+}
+
+/* Text */
+.text-indigo {
+    color: #820AD1;
+}
+
+.fw-semi-bold-1 {
+    font-weight: 500;
+}
+
+.fw-semi-bold-2 {
+    font-weight: 600;
+}
+
+/* Background */
+.bg-121212 {
+    background-color: #121212;
+}
+
+.bg-F5F5F5 {
+    background-color: #F5F5F5;
+}
+
+/* Border radius */
+.border-radius-10px {
+    border-radius: 10px;
+}
+
+.border-radius-15px {
+    border-radius: 15px;
+}
+
+.border-radius-20px {
+    border-radius: 20px;
+}
+
+.border-radius-30px {
+    border-radius: 30px;
+}
+
+/* Selecionar festa */
+.selecionar-festa .botao-selecionar-festa-inicio:focus {
+    -webkit-box-shadow: 0 0 5px #ae55e9;
+    box-shadow: 0 0 5px #ae55e9;
+    border-color: #820AD1 !important
+}
+
+.selecionar-festa .botao-selecionar-festa-inicio:hover {
+    color: #820AD1;
+}
+
+.selecionar-festa #selecionar-festa-opcoes {
+    position: absolute;
+    max-width: 300px;
+    border: 1px solid #e0bdf8 !important;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.selecionar-festa #selecionar-festa-opcoes::after {
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: -16px;
+    left: 20%;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-left: 8px solid transparent;
+    border-bottom: 8px solid #e0bdf8;
+}
+
+/* Carousel Img */
+.carousel-img {
+    width: 25%;
+}
+
+@media (max-width: 576px) {
+    .img-oq-fazer {
+        width: 90%;
+    }
+
+    .flex-carousel {
+        -webkit-box-orient: vertical !important;
+        -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+        flex-direction: column !important
+    }
+
+    .carousel-img {
+        width: 100% !important;
+    }
+}
+
+/* Form login */
+.form-control-login {
+    border-color: #F5F5F5;
+    padding: 10px 15px;
+    font-weight: 500;
+}
+
+.form-control-login:focus {
+    border-color: #820AD1;
+}
+
+.form-floating .form-control:focus,
+.form-floating .form-select:focus {
+    border-color: #ff8d29;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.form-floating .form-control.is-invalid:focus,
+.form-floating .form-select.is-invalid:focus {
+    border-color: #dc3545;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.input-custom.form-control:focus {
+    border-color: #ff8d29;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+/* Botão de cor 'indigo' */
+.btn-indigo {
+    color: #ffffff;
+    background-color: #820ad1;
+    border-color: #820ad1
+}
+
+.btn-indigo:hover {
+    color: #ffffff;
+    background-color: #9930df;
+    border-color: #9930df
+}
+
+.btn-indigo:focus {
+    color: #ffffff;
+    background-color: #9930df;
+    border-color: #9930df;
+    -webkit-box-shadow: 0 0 0 0.2rem rgba(130, 10, 209, .5);
+    box-shadow: 0 0 0 0.2rem rgba(130, 10, 209, .5)
+}
+
+.btn-indigo-outline {
+    color: #820ad1;
+    border-color: #820ad1
+}
+
+.btn-indigo-outline:hover {
+    color: #fff;
+    background-color: #820ad1;
+    border-color: #820ad1
+}
+
+.btn-indigo-outline:focus,
+.btn-indigo-outline.focus {
+    -webkit-box-shadow: 0 0 0 0.2rem rgba(130, 10, 209, .5);
+    box-shadow: 0 0 0 0.2rem rgba(130, 10, 209, .5)
+}
+
+/* Botão de cor facebook */
+.btn-facebook {
+    color: #ffffff;
+    background-color: #3b5998;
+    border-color: #3b5998;
+}
+
+.btn-facebook:hover {
+    color: #ffffff;
+    background-color: #4d6cac;
+    border-color: #4d6cac
+}
+
+.btn-facebook:focus {
+    color: #ffffff;
+    background-color: #4d6cac;
+    border-color: #4d6cac;
+    -webkit-box-shadow: 0 0 0 0.2rem rgba(59, 89, 152, .5);
+    box-shadow: 0 0 0 0.2rem rgba(59, 89, 152, .5)
+}
+
+.btn-facebook-outline {
+    color: #3b5998;
+    border-color: #3b5998
+}
+
+.btn-facebook-outline:hover {
+    color: #fff;
+    background-color: #3b5998;
+    border-color: #3b5998
+}
+
+.btn-facebook-outline:focus,
+.btn-facebook-outline.focus {
+    -webkit-box-shadow: 0 0 0 0.2rem rgba(59, 89, 152, .5);
+    box-shadow: 0 0 0 0.2rem rgba(59, 89, 152, .5)
+}
+
+/* Botão de cor google */
+.btn-google {
+    color: #ffffff;
+    background-color: #5d99fb;
+    border-color: #5d99fb
+}
+
+.btn-google:hover {
+    color: #ffffff;
+    background-color: #76a6f4;
+    border-color: #76a6f4
+}
+
+.btn-google:focus {
+    color: #ffffff;
+    background-color: #76a6f4;
+    border-color: #76a6f4;
+    -webkit-box-shadow: 0 0 0 0.2rem rgba(93, 153, 251, .5);
+    box-shadow: 0 0 0 0.2rem rgba(93, 153, 251, .5)
+}
+
+.btn-google-outline {
+    color: #5d99fb;
+    border-color: #5d99fb
+}
+
+.btn-google-outline:hover {
+    color: #fff;
+    background-color: #5d99fb;
+    border-color: #5d99fb
+}
+
+.btn-google-outline:focus,
+.btn-google-outline.focus {
+    -webkit-box-shadow: 0 0 0 0.2rem rgba(93, 153, 251, .5);
+    box-shadow: 0 0 0 0.2rem rgba(93, 153, 251, .5)
+}
+
+/* Botão pink  */
+.btn-pink {
+    color: #ffffff;
+    background-color: #cb5cff;
+    border-color: #cb5cff
+}
+
+.btn-pink:hover {
+    color: #ffffff;
+    background-color: #d16eff;
+    border-color: #d16eff
+}
+
+.btn-pink:focus {
+    color: #ffffff;
+    background-color: #d16eff;
+    border-color: #d16eff;
+    -webkit-box-shadow: 0 0 0 0.2rem rgba(209, 110, 255, .3);
+    box-shadow: 0 0 0 0.2rem rgba(209, 110, 255, .3)
+}
+
+/* Dropdown para usuário */
+.dropdown-usuario.dropdown-toggle::after {
+    display: inline-block;
+    margin-left: 0;
+}
+
+/* Lista sugerida para festas */
+.item-lista-sugerida {
+    padding: 8px 15px;
+    font-weight: 500;
+}
+
+.item-lista-sugerida:nth-child(even) {
+    background-color: rgba(130, 10, 209, 0.7);
+    color: #FFF
+}
+
+.item-lista-sugerida:nth-child(odd) {
+    background-color: #f5f5f5;
+}
+
+.item-lista-sugerida .form-check-input {
+    background-color: transparent;
+    -webkit-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    transform: scale(1.15);
+    border-radius: 3px;
+}
+
+.item-lista-sugerida .form-check-input:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-color: rgba(0, 0, 0, .25);
+}
+
+.item-lista-sugerida .form-check-input:checked[type=checkbox] {
+    background-color: #398624;
+    border-color: #398624;
+}
+
+
+@media (max-width: 992px) {
+
+    .pesquisar-colaborador {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .pesquisar-colaborador-btn {
+        width: 100%;
+    }
+
+    .pesquisar-colaborador-btn button {
+        width: 100%;
+    }
+
+    .pesquisar-colaborador .input-pesq {
+        max-width: 100% !important;
+        min-width: 100% !important;
+        border-right: none !important;
+        border-bottom: 2px solid #ddd !important;
+        padding: 13px 8px;
+    }
+
+    .pesquisar-colaborador input {
+
+        border-right: none !important;
+    }
+
+    .pesquisar-colaborador .selecionar-categoria {
+        max-width: 100% !important;
+        min-width: 100% !important;
+        border-right: none !important;
+        padding: 3px 8px;
+    }
+
+    .pesquisar-colaborador .selecionar-endereco {
+        border-right: none !important;
+        padding: 13px 8px;
+    }
+}
+
+/* Pesquisar colaborador */
+.pesquisar-colaborador {
+    padding: 4px;
+    -webkit-box-shadow: 0 0 0 0.2rem #ebedef;
+    box-shadow: 0 0 0 0.2rem #ebedef;
+    font-weight: 500
+}
+
+.pesquisar-colaborador input,
+.pesquisar-colaborador button {
+    font-weight: 500;
+}
+
+/* Shadow */
+.text-shadown {
+    text-shadow: 0 0 15px rgba(0, 0, 0, .8);
+}
+
+/* Paginação */
+.page-item.active .page-link {
+    z-index: 3;
+    color: #fff;
+    background-color: #0a7bd1;
+    border-color: #0a7bd1;
+}
+
+.pagination .page-link {
+    color: #0a7bd1;
+}
+
+/* Borda */
+.border-gray {
+    border-color: #eaeaea;
+}
+
+/* Sidebar */
+.sidebar .sobre-usuario {
+    border-radius: 0 0 8px 8px;
+}
+
+/* Card gradiente para o colaborador visualizar links */
+.card-links-colaborador {
+    /* background: linear-gradient(#459bff, #41bdff); */
+    background: -o-linear-gradient(135deg, #41bdff, #459bff);
+    background: linear-gradient(-45deg, #41bdff, #459bff);
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+.card-links-colaborador a.text-white.text-decoration-none.fw-semi-bold-2:hover {
+    color: rgba(255, 255, 255, .7) !important
+}
